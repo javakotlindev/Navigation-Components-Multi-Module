@@ -20,6 +20,7 @@ local.properties
 *.aar
 *.ap_
 *.aab
+build-with-core-plugins/buildSrc/src/gradle-kotlin-dsl
 
 # Files for the ART/Dalvik VM
 *.dex
