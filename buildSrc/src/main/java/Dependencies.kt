@@ -5,6 +5,7 @@ object Libraries {
         const val navigation = "2.5.3"
         const val material = "1.6.1"
         const val appCompatX = "1.5.1"
+        const val constraint = "2.1.4"
     }
 
     const val androidXCore = "androidx.core:core-ktx:${Versions.androidX}"
@@ -16,4 +17,6 @@ object Libraries {
     const val material = "com.google.android.material:material:${Versions.material}"
 
     const val appCompatX = "androidx.appcompat:appcompat:${Versions.appCompatX}"
+
+    const val contraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraint}"
 }
