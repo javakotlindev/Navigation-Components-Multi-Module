@@ -1,0 +1,5 @@
+com.anynews.myapplication.login_page
+id backBtn
+id nextBtn
+layout fragment_login
+layout fragment_register

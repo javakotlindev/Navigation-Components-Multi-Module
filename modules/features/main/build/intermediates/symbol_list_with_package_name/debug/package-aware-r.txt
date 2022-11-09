@@ -1,0 +1,3 @@
+com.anynews.myapplication.main_page
+id nextBtn
+layout fragment_main

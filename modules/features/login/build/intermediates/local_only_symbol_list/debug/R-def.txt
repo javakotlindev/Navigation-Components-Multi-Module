@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+id backBtn
+id nextBtn
+layout fragment_login
+layout fragment_register

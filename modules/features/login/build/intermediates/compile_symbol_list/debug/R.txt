@@ -1,0 +1,4 @@
+int id backBtn 0x0
+int id nextBtn 0x0
+int layout fragment_login 0x0
+int layout fragment_register 0x0

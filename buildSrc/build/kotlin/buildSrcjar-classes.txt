@@ -1,0 +1,1 @@
+C:\Users\User\AndroidStudioProjects\MyApplication\buildSrc\build\classes\kotlin\main\Libraries$Versions.class;C:\Users\User\AndroidStudioProjects\MyApplication\buildSrc\build\classes\kotlin\main\Libraries.class

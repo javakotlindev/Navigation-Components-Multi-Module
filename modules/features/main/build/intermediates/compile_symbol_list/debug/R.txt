@@ -1,0 +1,2 @@
+int id nextBtn 0x0
+int layout fragment_main 0x0

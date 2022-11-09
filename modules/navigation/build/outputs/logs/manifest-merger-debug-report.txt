@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml:2:1-61
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml:2:1-61
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml:2:1-61
+	package
+		ADDED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml:2:11-58
+		INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml:2:1-61
+uses-sdk
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\AndroidStudioProjects\MyApplication\modules\navigation\src\main\AndroidManifest.xml
