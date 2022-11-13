@@ -4,13 +4,11 @@ Here will be methods of using Navigation Components in multi-module project
 **Method 1:**
 ![image](https://user-images.githubusercontent.com/60436279/201531132-0ce4b7c4-6d04-4b7b-9035-0fb8077042d8.png)
 
-For example, we have 4 modules: 2 modules with Feature-Fragments, App module and Navigation module.
-In **App _module_** we have Application, MainActivity and etc.. Also in this module we implement all **Feature modules**, so we can create navigation xml class in our resources and create navGraph.
+For example, we have 4 modules: 2 **Feature** modules (Fragments), **App** module and **Navigation** module. In the **App** module, we have Application, MainActivity, etc.. Also in this module we implement all the Feature modules, so we create a navigation.xml class in our resources and create navGraph.
 
-To Avoid Circular Dependecy, we use Navigations module, where we have:
-    
-   a. Enum-class where we have our navigation screen names (**NavGraphs.kt** in my case)
-    
+To avoid circular dependency, we use the **Navigation** module where we have:
+
+a. Enum-class, where we have the names of our navigraphs (navGraphs.kt in my case)
 ```ruby 
 enum class NavGraph {
     LOGIN,
@@ -19,7 +17,7 @@ enum class NavGraph {
 }
 ```
    
-   b. Navigation types interface (**Navigatios.kt** in my case):
+b. Interface of navigation types (**Navigatios.kt** in my case):
    
 ```ruby    
 import android.os.Bundle
@@ -29,7 +27,7 @@ interface Navigations {
 }
 ```
   
-We implement library in App module to overide interface in our MainActivity and by **NavGraphs.kt** we can navigate to screen that we want. 
+We implement **Navigation** module in App module to overide interface methods in our MainActivity and with **NavGraphs.kt** we can navigate to the screen we want.
 
 ```ruby
 
@@ -70,7 +68,7 @@ class MainActivity : AppCompatActivity(), Navigations {
 }
 ```
 
-Then we implement **Navigations** module in **Feature module**s, so we can create instance of Navigations interface and use it instead of Navcontroller and by **NavGraphs.kt**
+Then we implement the **Navigation** module in **Feature** modules so we can create an instance of the_**Navigations.kt**_ interface and use it instead of Navcontroller. Then we use _**NavGraphs.kt**_ to pass the name of the screen we want to navigate to
 ```ruby
 import android.content.Context
 import android.os.Bundle
